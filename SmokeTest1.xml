@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "Zero Bank Smoke Test" verbose = "2">
+
+    <test name="Smoke test1">
+       <packages>
+          <package name = "positiveScenario"/>
+       </packages>
+    </test>
+    
+</suite>
