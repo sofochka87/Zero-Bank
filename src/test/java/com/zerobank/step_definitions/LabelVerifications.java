@@ -5,7 +5,9 @@ import static org.testng.Assert.assertTrue;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -75,6 +77,7 @@ public class LabelVerifications {
 		});
 		System.out.println(actualList);
 		assertEquals(actualList, expectedList);
+		Map<String, String> map = new HashMap<>();
 	}
     
     @Then("The user log out")

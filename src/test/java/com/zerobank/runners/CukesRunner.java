@@ -6,9 +6,13 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@negativeScenarios",
+		plugin = {
+				"pretty",
+				"html:target/default-cucumber-reports", //generates every time we run the cukes runner
+				"json:target/cucumber.json"
+		},
 		features = "src/test/resources/com/zeroBank/features",
 		glue = "com/zerobank/step_definitions"
 )
-public class NegativeScenariosTestsRunner {
+public class CukesRunner {
 }

@@ -2,10 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Zero Bank Smoke Test" duration-ms="3" started-at="2018-07-14T17:13:54Z" finished-at="2018-07-14T17:13:54Z">
+  <suite name="Surefire suite" duration-ms="34008" started-at="2018-08-17T02:00:14Z" finished-at="2018-08-17T02:00:48Z">
     <groups>
     </groups>
-    <test name="Smoke test" duration-ms="3" started-at="2018-07-14T17:13:54Z" finished-at="2018-07-14T17:13:54Z">
-    </test> <!-- Smoke test -->
-  </suite> <!-- Zero Bank Smoke Test -->
+    <test name="Surefire test" duration-ms="34008" started-at="2018-08-17T02:00:14Z" finished-at="2018-08-17T02:00:48Z">
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
